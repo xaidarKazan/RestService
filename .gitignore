@@ -1,0 +1,8 @@
+
+.idea/
+sbsWEB/target/
+
+task1/.idea/
+.idea
+
+task1/sbsWEB/src/main/resources/database.properties

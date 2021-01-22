@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd
+         http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-3.8.xsd">
+
+    <changeSet id="1" author="Aidar">
+        <sqlFile path="dataBase/initDB_Tables.sql"/>
+    </changeSet>
+    <changeSet id="2" author="Aidar">
+        <sqlFile path="dataBase/populateDB_Person_Table.sql"/>
+    </changeSet>
+    <changeSet id="3" author="Aidar">
+        <sqlFile path="dataBase/populateDB_Author_Table.sql"/>
+    </changeSet>
+    <changeSet id="4" author="Aidar">
+        <sqlFile path="dataBase/populateDB_Genre_Table.sql"/>
+    </changeSet>
+    <changeSet id="5" author="Aidar">
+        <sqlFile path="dataBase/populateDB_Book_Table.sql"/>
+    </changeSet>
+    <changeSet id="6" author="Aidar">
+        <sqlFile path="dataBase/populateDB_Book_Genre_Lnk_Table.sql"/>
+    </changeSet>
+
+</databaseChangeLog>
